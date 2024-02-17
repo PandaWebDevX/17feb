@@ -15,6 +15,14 @@
 
 
 }
+/* .pic{
+ height: 300px;
+ width: 300px; 
+ margin-top: -400px;
+ margin-left: 100px;
+ display: block;
+
+} */
 @keyframes duk {
     0%
 {
@@ -148,7 +156,8 @@
     justify-content: center;
     width: 100%;
   }
-  .touch:hover{
+  .touch:hover
+  {
     background-color: cyan;
   }
 
@@ -163,11 +172,141 @@
     position: absolute;
     border: 2px solid pink;
   }
+  .touch2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 40px;
+    border: 2px solid pink;
+    margin-top:40%;
+
+  }
+  .touch3{display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid pink;
+    margin-top:40%;
+  }
+  .touch4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid pink;
+    margin-top:10%;
+  }
+  .touch2:hover{
+    background-color: cyan;
+
+  }
+  .love{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .touch3:hover{
+    background-color: cyan;
+
+  }
+  .touch4:hover{
+    background-color: cyan;
+
+  }
+
   a{color:red;
     text-decoration: none;
   }
   li{
     list-style: none;
+  }
+
+  .bottle{
+    border: 2px solid black;
+    height: 390px;
+    width: 200px;
+    margin-top: 200px;
+    /* position: absolute; */
+    border-radius: 80px;
+    margin-left: 50px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    background-image: url("1st.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    justify-content: center;
+    /* position: absolute; */
+  }
+
+
+  .bottlef{ 
+    border:2px  solid rgb(1, 13, 13);
+    height: 100px;
+    width: 50px;
+    margin-top: -100px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding-left: 2px;
+  background-color:red;
+  color: white;
+    
+
+  }
+  
+  /* .bottle-top{
+    margin-top: -500px;
+    margin-left: 50px;
+    height: 200px; 
+     width: 100px; 
+    border: 2px solid blue;
+  } */
+  /* .bottle::before{
+
+
+
+              
+    content: "|________| ";
+    
+    margin-left: 50px; 
+    /* border: 2px solid rgb(14, 225, 95); 
+    border-radius: 70px;
+  } */
+   .bottle-1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .box{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .h{
+    border: none;
+    width: 490px;
+     
+  }
+  .d{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   @media screen and ( max-width:455px) {
     .wrapper .static-txt{
