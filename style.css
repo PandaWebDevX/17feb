@@ -57,7 +57,9 @@
     /* align-items: center; */
     /* justify-content: center; */
     /* min-height: 100vh; */
-    background: rgb(253, 151, 168);
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+
+
   }
   .wrapper{
     display: flex;
@@ -99,7 +101,8 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgb(253, 151, 168);
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+
     border-left: 2px solid #FC6D6D;
     animation: typing 3s steps(10) infinite;
   }
