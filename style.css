@@ -22,7 +22,7 @@
     display: flex;
     align-items: center; 
     justify-content: center;
-    margin-top:50px;
+    margin-top:40%;
 }
 .heart::before{
     content: '';
@@ -57,13 +57,13 @@
     /* align-items: center; */
     /* justify-content: center; */
     /* min-height: 100vh; */
-    background: #343F4F;
+    background: rgb(253, 151, 168);
   }
   .wrapper{
     display: flex;
   }
   .wrapper .static-txt{
-    color: #fff;
+    color: rgb(7, 0, 0);
     font-size: 60px;
     font-weight: 400;
   }
@@ -71,15 +71,16 @@
     margin-left: 15px;
     height: 90px;
     line-height: 90px;
-    /* overflow: hidden; */
+    overflow: hidden;
   }
   .dynamic-txts li{
     list-style: none;
-    color: #FC6D6D;
+    color: red;
     font-size: 60px;
     font-weight: 500;
     position: relative;
     top: 0;
+    
     animation: slide 12s steps(4) infinite;
   }
   @keyframes slide {
@@ -98,7 +99,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: #343F4F;
+    background: rgb(253, 151, 168);
     border-left: 2px solid #FC6D6D;
     animation: typing 3s steps(10) infinite;
   }
@@ -114,7 +115,7 @@
     top: 0%;
     position: absolute;
     margin-top: -50px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 50vh;
     display: flex;
     align-items: center;
@@ -145,8 +146,8 @@
   .dynamic-txts li span{
     position: relative;
     margin: ;
-    line-height: 90px;
-    border: 2px solid green;
+    line-height: 50px;
+    /* border: 2px solid green; */
   }
 
   .wrapper .dynamic-txts{
@@ -154,5 +155,16 @@
     height: 90px;
     line-height: 90px;
     overflow: hidden;
+  }
+
+  .dynamic-txts li{
+    list-style: none;
+    color: red;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    margin-top: -10;
+    animation: slide 12s steps(4) infinite;
   }
   }
