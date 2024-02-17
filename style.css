@@ -101,9 +101,9 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    /* background-image: linear-gradient(to right, #ff6e7f, #bfe9ff); */
 
-    border-left: 2px solid #FC6D6D;
+    border-left: 2px solid #300505;
     animation: typing 3s steps(10) infinite;
   }
   @keyframes typing {
@@ -128,14 +128,14 @@
   @media screen and ( max-width:455px) {
     .wrapper .static-txt{
         color: #fff;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 400;
       }
     
       .dynamic-txts li{
         list-style: none;
         color: #FC6D6D;
-        font-size: 20px;
+        font-size: 10px;
         font-weight: 500;
         position: relative;
         top: 0;
@@ -163,11 +163,24 @@
   .dynamic-txts li{
     list-style: none;
     color: red;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 500;
     position: relative;
     top: 0;
     margin-top: -10;
     animation: slide 12s steps(4) infinite;
+  }
+
+  .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 200%;
+    width: 100%;
+        
+    border-left: 2px solid #FC6D6D;
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+
+    animation: typing 3s steps(10) infinite;
   }
   }
