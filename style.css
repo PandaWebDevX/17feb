@@ -9,6 +9,7 @@
     height: 100px;
     background-color: red;
     position: relative;
+    margin-top: 40%;
     transform: rotate(-45deg);
     
 
@@ -46,12 +47,7 @@
     left: 49px;
 } 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
+
   body{
     /* display: flex; */
     /* align-items: center; */
@@ -125,15 +121,26 @@
     justify-content: center;
     width: 100%;
   }
+  .touch:hover{
+    background-color: cyan;
+  }
 
   .touch{display: flex;
     align-items: center;
     justify-content: center;
-    height: 20px;
+    height: 40px;
     width: 100%;
-    margin-top: 80%;
+    border-radius: 40px;
+
+    margin-top:140%;
     position: absolute;
     border: 2px solid pink;
+  }
+  a{color:red;
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
   }
   @media screen and ( max-width:455px) {
     .wrapper .static-txt{
